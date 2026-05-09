@@ -650,7 +650,7 @@ This is a static HTML/CSS page. There is no authentication, no server-side code,
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **OG image commit timing vs `<head>` meta plan**
    - What we know: `og:image` in D-23 points to `https://bolotbekbolotov.github.io/assets/og-card.png`

@@ -66,7 +66,7 @@ Plans:
 **UI hint**: yes
 
 ### Phase 3: Polish & Meta
-**Goal**: The page renders correctly on mobile, produces a clean print/PDF output, and is discoverable via search and link previews
+**Goal**: The page renders correctly on mobile, produces a clean print/PDF output, and is discoverable via search and link previews. CV content refreshed with inline stack lines per role and 2-tier skills model.
 **Mode:** mvp
 **Depends on**: Phase 2
 **Requirements**: POLISH-01, POLISH-02, POLISH-03
@@ -74,7 +74,17 @@ Plans:
   1. Page renders in a single-column, readable layout at 375px width with no horizontal overflow
   2. Browser "Print to PDF" produces a clean, paginated CV document with no cut-off sections or broken layout
   3. Page has a tuned `<title>` and `<meta description>` containing the engineer's name, and Open Graph tags generate a correct link preview when shared on LinkedIn or Slack
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+**Wave 1**
+- [ ] 03-01-PLAN.md — CV content refresh: experience rewrite (D-04), inline Stack lines (D-05), skills 2-tier collapse (D-06/D-07), .experience-stack CSS rule
+
+**Wave 2** *(blocked on Wave 1 completion)*
+- [ ] 03-02-PLAN.md — Mobile CSS + print CSS: expand @media (max-width: 600px) for horizontal-scroll nav + 44px tap targets, new @media print block, prefers-reduced-motion guard
+
+**Wave 3** *(blocked on Wave 2 completion)*
+- [ ] 03-03-PLAN.md — Head meta + OG card: update meta description, add canonical/theme-color/OG block/JSON-LD, generate and commit assets/og-card.png (has human checkpoint)
+**UI hint**: yes
 
 ## Progress
 
@@ -85,4 +95,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deploy | 2/2 | Complete | 2026-05-09 |
 | 2. Content & Structure | 5/5 | Complete | 2026-05-09 |
-| 3. Polish & Meta | 0/TBD | Not started | - |
+| 3. Polish & Meta | 0/3 | Not started | - |
