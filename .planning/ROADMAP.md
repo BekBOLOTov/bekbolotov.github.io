@@ -12,7 +12,7 @@ Three phases take the project from an empty repo to a live, polished CV landing 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation & Deploy** - Repo scaffolded, site live on GitHub Pages with HTTPS verified
+- [x] **Phase 1: Foundation & Deploy** - Repo scaffolded, site live on GitHub Pages with HTTPS verified (2026-05-09)
 - [ ] **Phase 2: Content & Structure** - All CV sections authored and rendered with correct visual design
 - [ ] **Phase 3: Polish & Meta** - Mobile layout, print stylesheet, and SEO meta complete
 
@@ -30,10 +30,10 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 Plans:
 **Wave 1**
-- [ ] 01-01-PLAN.md — Create HTML/CSS scaffold (index.html, style.css, assets/.gitkeep)
+- [x] 01-01-PLAN.md — Create HTML/CSS scaffold (index.html, style.css, assets/.gitkeep)
 
 **Wave 2** *(blocked on Wave 1 completion)*
-- [ ] 01-02-PLAN.md — Create remote repo, push, enable GitHub Pages, verify HTTPS
+- [x] 01-02-PLAN.md — Create remote repo, push, enable GitHub Pages, verify HTTPS
 **UI hint**: yes
 
 ### Phase 2: Content & Structure
@@ -68,6 +68,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Deploy | 0/2 | Not started | - |
+| 1. Foundation & Deploy | 2/2 | Complete | 2026-05-09 |
 | 2. Content & Structure | 0/TBD | Not started | - |
 | 3. Polish & Meta | 0/TBD | Not started | - |
