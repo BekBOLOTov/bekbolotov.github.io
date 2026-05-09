@@ -12,7 +12,7 @@ Credibility on first read — a visitor should immediately trust the engineer's 
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Deployed and live on GitHub Pages (Validated in Phase 1: Foundation & Deploy — bekbolotov.github.io)
 
 ### Active
 
@@ -22,7 +22,7 @@ Credibility on first read — a visitor should immediately trust the engineer's 
 - [ ] Education section with degrees and certifications
 - [ ] Contact/links section with email, GitHub, and LinkedIn
 - [ ] Clean, minimal visual design — typography-focused, professional
-- [ ] Deployed and live on GitHub Pages
+- [ ] Deployed and live on GitHub Pages (done — Phase 1)
 
 ### Out of Scope
 
