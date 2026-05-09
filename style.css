@@ -360,7 +360,36 @@ footer p {
 }
 
 /* 11. UTILITIES ------------------------------------------ */
-/* Phase 2 fills this section */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 /* 12. MEDIA QUERIES -------------------------------------- */
-/* Phase 2 fills this section */
+/* Phase 2: overflow guard only. Full responsive layout in Phase 3. */
+@media (max-width: 600px) {
+  .container {
+    padding-inline: var(--space-4);
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    gap: var(--space-4);
+    flex-wrap: wrap;
+  }
+}
