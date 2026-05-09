@@ -24,7 +24,7 @@ created: 2026-05-09
 | Preset | not applicable |
 | Component library | none |
 | Icon library | none (inline SVG or unicode symbols only if needed) |
-| Font | Inter 400/600/700 via Google Fonts (already loaded in index.html) |
+| Font | Inter 400/600 via Google Fonts (already loaded in index.html) |
 
 ---
 
@@ -35,15 +35,14 @@ All spacing tokens already declared in `style.css` `:root`. Executor MUST use CS
 | CSS Token | Value | Usage |
 |-----------|-------|-------|
 | `--space-1` | 4px | Inline gaps: tag margin, icon-to-text gap |
-| `--space-2` | 8px | Tight element spacing: tag padding, muted label gap |
-| `--space-3` | 12px | Nav link padding, skill tier label margin |
+| `--space-2` | 8px | Tight element spacing: tag padding, muted label gap, nav padding-block |
 | `--space-4` | 16px | Default paragraph margin, list item spacing |
 | `--space-6` | 24px | Experience entry gap, sub-section spacing |
 | `--space-8` | 32px | Section internal padding (top/bottom) |
 | `--space-12` | 48px | Between major sections |
 | `--space-16` | 64px | Hero top/bottom padding |
 
-Exceptions: Nav bar height target is 48px (touch-target safe); achieved via `padding: var(--space-3) var(--space-6)` on `<header>`.
+Exceptions: Nav bar height target is 48px (touch-target safe); achieved via `padding-block: var(--space-2)` on `nav` (8px × 2 + ~32px font line-height ≈ 48px).
 
 ---
 
@@ -53,7 +52,7 @@ Tokens already declared in `style.css`. Map to roles below.
 
 | Role | CSS Token | Size | Weight | Line Height | Usage |
 |------|-----------|------|--------|-------------|-------|
-| Display | `--font-size-2xl` | 32px | 700 | 1.2 | Name (`<h1>`) — single use |
+| Display | `--font-size-2xl` | 32px | 600 | 1.2 | Name (`<h1>`) — single use |
 | Heading | `--font-size-xl` | 24px | 600 | 1.3 | Section `<h2>` headings |
 | Body | `--font-size-base` | 16px | 400 | `--line-height` (1.6) | Summary, bullets, body copy |
 | Label / Muted | `--font-size-sm` | 14px | 400 | 1.5 | Dates, location, muted metadata, tag text |
@@ -140,7 +139,7 @@ body {
 
 h1 {
   font-size: var(--font-size-2xl);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2;
   margin: 0 0 var(--space-2) 0;
 }
@@ -229,7 +228,7 @@ nav {
   max-width: var(--max-width);
   margin-inline: auto;
   padding-inline: var(--space-6);
-  padding-block: var(--space-3);
+  padding-block: var(--space-2);
   display: flex;
   gap: var(--space-6);
   align-items: center;
@@ -271,7 +270,7 @@ nav a.active {
 }
 
 .hero-title {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
   color: var(--color-text-muted);
   font-weight: 400;
   margin: 0 0 var(--space-4) 0;
@@ -404,7 +403,7 @@ Layout decision (D-10): inline tag groups per proficiency tier. Tags are `<span>
   color: var(--color-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-2);
 }
 
 .skills-tags {
@@ -498,7 +497,7 @@ Layout decision (D-11): two sub-sections. No special visual treatment — typogr
 .contact-list li {
   display: flex;
   align-items: center;
-  gap: var(--space-3);
+  gap: var(--space-4);
   font-size: var(--font-size-base);
 }
 
