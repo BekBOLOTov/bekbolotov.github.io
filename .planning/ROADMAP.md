@@ -40,7 +40,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. At least one contact or profile link (email or GitHub) is visible above the fold without scrolling
   3. Work history is displayed in reverse chronological order with company, title, dates, at least one quantified impact bullet, and tech stack per role
   4. Skills are grouped by honest proficiency tier — not a flat keyword list
-  5. Education section shows degree, institution, and graduation year; contact section includes email, GitHub, and LinkedIn links
+  5. Achievements section shows competitive programming honors (IOI, ACM ICPC NEERC) and DS&A profiles; contact section includes email, GitHub, and LinkedIn links
 **Plans**: TBD
 **UI hint**: yes
 

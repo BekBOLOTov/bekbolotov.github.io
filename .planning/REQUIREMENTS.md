@@ -23,9 +23,9 @@
 
 - [ ] **SKILL-01**: Skills are grouped by honest proficiency tier (e.g., Expert / Proficient / Familiar) — not a flat keyword dump
 
-### Education
+### Achievements
 
-- [ ] **EDU-01**: Education section lists degree(s) with institution name and graduation year
+- [ ] **EDU-01**: Achievements section lists competitive programming honors — IOI 2016/2017, ACM ICPC NEERC 2018, and DS&A problem-solving profiles (Codeforces, LeetCode, ACMP)
 
 ### Contact / Links
 
@@ -43,7 +43,7 @@
 ## v2 Requirements (Deferred)
 
 - Projects section — showcase 2–4 projects with links and descriptions
-- Certifications under education
+- Certifications (if any added later)
 - Favicon
 - Custom domain (`CNAME` + DNS)
 - Dark mode toggle
