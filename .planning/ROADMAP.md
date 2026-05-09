@@ -1,98 +1,18 @@
 # Roadmap: CV Landing Page
 
-## Overview
+## Shipped Milestones
 
-Three phases take the project from an empty repo to a live, polished CV landing page. Phase 1 establishes the deployed shell so every subsequent change is immediately verifiable on the real URL. Phase 2 fills all content sections — hero through contact — delivering the core credibility value. Phase 3 locks in mobile rendering, print-to-PDF output, and SEO meta so the page performs correctly across every access context.
+- [x] **v1.0 — CV Landing Page MVP** (2026-05-09) — 3 phases, 10 plans, all 13 requirements validated. See [milestones/v1.0-ROADMAP.md](milestones/v1.0-ROADMAP.md).
 
-## Phases
+## Active Milestone
 
-**Phase Numbering:**
-- Integer phases (1, 2, 3): Planned milestone work
-- Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
+_None — v1.0 shipped. Next milestone via `/gsd-new-milestone`._
 
-Decimal phases appear between their surrounding integers in numeric order.
+## Deferred to Future Milestones
 
-- [x] **Phase 1: Foundation & Deploy** - Repo scaffolded, site live on GitHub Pages with HTTPS verified (2026-05-09)
-- [x] **Phase 2: Content & Structure** - All CV sections authored and rendered with correct visual design (2026-05-09)
-- [x] **Phase 3: Polish & Meta** - Mobile layout, print stylesheet, and SEO meta complete (2026-05-09)
-
-## Phase Details
-
-### Phase 1: Foundation & Deploy
-**Goal**: The site is publicly reachable on GitHub Pages and ready to receive content
-**Mode:** mvp
-**Depends on**: Nothing (first phase)
-**Requirements**: DEPLOY-01
-**Success Criteria** (what must be TRUE):
-  1. Visiting `<username>.github.io` in a browser loads the page over HTTPS without errors
-  2. The repository is named correctly (`<username>.github.io`) and Pages is configured to serve from the main branch root
-  3. `index.html` and `style.css` exist in the repo root and are committed to main
-**Plans**: 2 plans
-Plans:
-**Wave 1**
-- [x] 01-01-PLAN.md — Create HTML/CSS scaffold (index.html, style.css, assets/.gitkeep)
-
-**Wave 2** *(blocked on Wave 1 completion)*
-- [x] 01-02-PLAN.md — Create remote repo, push, enable GitHub Pages, verify HTTPS
-**UI hint**: yes
-
-### Phase 2: Content & Structure
-**Goal**: Every CV section is on the page with accurate, impact-framed content and a clean, readable visual design
-**Mode:** mvp
-**Depends on**: Phase 1
-**Requirements**: HERO-01, HERO-02, HERO-03, EXP-01, EXP-02, EXP-03, SKILL-01, EDU-01, CONTACT-01
-**Success Criteria** (what must be TRUE):
-  1. Visitor sees name, job title, and a specific 2–3 sentence professional summary immediately on page load without scrolling
-  2. At least one contact or profile link (email or GitHub) is visible above the fold without scrolling
-  3. Work history is displayed in reverse chronological order with company, title, dates, at least one quantified impact bullet, and tech stack per role
-  4. Skills are grouped by honest proficiency tier — not a flat keyword list
-  5. Achievements section shows competitive programming honors (IOI, ACM ICPC NEERC) and DS&A profiles; contact section includes email, GitHub, and LinkedIn links
-**Plans**: 5 plans
-Plans:
-**Wave 1**
-- [x] 02-01-PLAN.md — CSS typography/layout/nav foundations + HTML title/meta/nav links
-
-**Wave 2** *(blocked on Wave 1 completion)*
-- [x] 02-02-PLAN.md — Hero + Contact sections: HTML content + CSS (above-the-fold credibility)
-
-**Wave 3** *(blocked on Wave 2 completion)*
-- [x] 02-03-PLAN.md — Experience section: 5 roles with impact bullets, CSS layout
-
-**Wave 4** *(blocked on Wave 3 completion)*
-- [x] 02-04-PLAN.md — Skills + Achievements sections: proficiency tiers, honors, DS&A profile links
-
-**Wave 5** *(blocked on Wave 4 completion)*
-- [x] 02-05-PLAN.md — CSS utilities/overflow guard (sections 11-12) + script.js IntersectionObserver active nav
-**UI hint**: yes
-
-### Phase 3: Polish & Meta
-**Goal**: The page renders correctly on mobile, produces a clean print/PDF output, and is discoverable via search and link previews. CV content refreshed with inline stack lines per role and 2-tier skills model.
-**Mode:** mvp
-**Depends on**: Phase 2
-**Requirements**: POLISH-01, POLISH-02, POLISH-03
-**Success Criteria** (what must be TRUE):
-  1. Page renders in a single-column, readable layout at 375px width with no horizontal overflow
-  2. Browser "Print to PDF" produces a clean, paginated CV document with no cut-off sections or broken layout
-  3. Page has a tuned `<title>` and `<meta description>` containing the engineer's name, and Open Graph tags generate a correct link preview when shared on LinkedIn or Slack
-**Plans**: 3 plans
-Plans:
-**Wave 1**
-- [x] 03-01-PLAN.md — CV content refresh: experience rewrite (D-04), inline Stack lines (D-05), skills 2-tier collapse (D-06/D-07), .experience-stack CSS rule
-
-**Wave 2** *(blocked on Wave 1 completion)*
-- [x] 03-02-PLAN.md — Mobile CSS + print CSS: expand @media (max-width: 600px) for horizontal-scroll nav + 44px tap targets, new @media print block, prefers-reduced-motion guard
-
-**Wave 3** *(blocked on Wave 2 completion)*
-- [x] 03-03-PLAN.md — Head meta + OG card: update meta description, add canonical/theme-color/OG block/JSON-LD, generate and commit assets/og-card.png (has human checkpoint)
-**UI hint**: yes
-
-## Progress
-
-**Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3
-
-| Phase | Plans Complete | Status | Completed |
-|-------|----------------|--------|-----------|
-| 1. Foundation & Deploy | 2/2 | Complete | 2026-05-09 |
-| 2. Content & Structure | 5/5 | Complete | 2026-05-09 |
-| 3. Polish & Meta | 3/3 | Complete | 2026-05-09 |
+- Projects section — 2–4 projects with links/descriptions
+- Certifications (if any added later)
+- Favicon
+- Custom domain (CNAME + DNS)
+- Dark mode toggle
+- Blog / writing section

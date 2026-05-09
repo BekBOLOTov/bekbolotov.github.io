@@ -1,90 +1,88 @@
 ---
 gsd_state_version: 1.0
-milestone: v1.0
-milestone_name: milestone
-status: phase_verified
-stopped_at: Phase 3 verified — UAT 6/6 pass
-last_updated: "2026-05-09T11:30:00.000Z"
-last_activity: 2026-05-09 -- Phase 3 UAT complete (6/6 pass)
+milestone: none
+milestone_name: between milestones
+status: milestone_complete
+stopped_at: v1.0 shipped — awaiting next milestone scope
+last_updated: "2026-05-09T12:00:00.000Z"
+last_activity: 2026-05-09 -- v1.0 milestone archived and tagged
 progress:
-  total_phases: 3
-  completed_phases: 3
-  total_plans: 10
-  completed_plans: 10
-  percent: 100
+  total_phases: 0
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
+  percent: 0
 ---
 
 # Project State
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-05-09)
+See: .planning/PROJECT.md (updated 2026-05-09 post v1.0)
 
 **Core value:** Credibility on first read — a visitor should immediately trust the engineer's depth of experience and judgment
-**Current focus:** Milestone v1.0 — all phases complete
+**Current focus:** Between milestones — v1.0 shipped, next milestone not yet scoped
 
 ## Current Position
 
-Phase: 3 (Polish & Meta) — VERIFIED
-Plan: 3 of 3 complete; UAT 6/6 pass
-Next: /gsd-ship or /gsd-complete-milestone
-Status: Phase 3 verified; milestone ready to ship/archive
-Last activity: 2026-05-09 -- Phase 3 UAT complete (6/6 pass)
+Milestone: v1.0 COMPLETE (shipped 2026-05-09)
+Next: /gsd-new-milestone to scope v1.1 / v2.0
+Status: Awaiting next milestone definition
+Last activity: 2026-05-09 -- v1.0 milestone archived and tagged
 
-Progress: [██████████] 100%
+Progress: [██████████] 100% (v1.0)
 
 ## Performance Metrics
 
-**Velocity:**
+**v1.0 Velocity:**
 
-- Total plans completed: 0
-- Average duration: —
-- Total execution time: —
+- Total plans completed: 10
+- Total phases: 3
+- Total commits: 41+
+- Duration: Single day (~7 hours)
 
 **By Phase:**
 
-| Phase | Plans | Total | Avg/Plan |
-|-------|-------|-------|----------|
-| - | - | - | - |
-
-**Recent Trend:**
-
-- Last 5 plans: —
-- Trend: —
-
-*Updated after each plan completion*
+| Phase | Plans | Status |
+|-------|-------|--------|
+| 1. Foundation & Deploy | 2/2 | Complete 2026-05-09 |
+| 2. Content & Structure | 5/5 | Complete 2026-05-09 |
+| 3. Polish & Meta | 3/3 | Complete 2026-05-09 |
 
 ## Accumulated Context
 
-### Decisions
+### v1.0 Key Decisions (archived)
 
-Decisions are logged in PROJECT.md Key Decisions table.
-Recent decisions affecting current work:
+See [milestones/v1.0-ROADMAP.md](milestones/v1.0-ROADMAP.md) for full decision log.
 
-- Init: Plain HTML/CSS/JS over static generator — zero build step, deploys directly to GH Pages
-- Init: Single page (no routing) — recruiters scroll, not navigate
-- Init: Skip projects section in v1 — keep focus on credibility through experience
+Highlights:
+- Plain HTML/CSS/JS, no build step
+- 2-tier skills model (Expert + Proficient)
+- Inline `.experience-stack` per role
+- No `print-color-adjust` in @media print
+- Direct-to-`main` deploy (branching_strategy: none)
 
 ### Pending Todos
 
-None yet.
+None.
 
 ### Blockers/Concerns
 
-- Content quality is the primary risk: impact-framed bullets and a specific hero summary must be authored before HTML is filled in (cannot be fixed by design changes after the fact)
+None for v1.0. Push to origin/main pending (auth issue in agent shell — user will push manually).
 
-## Deferred Items
+## Deferred Items (carried to next milestone)
 
 | Category | Item | Status | Deferred At |
 |----------|------|--------|-------------|
-| v2 | Projects section | Deferred | Init |
-| v2 | Certifications under education | Deferred | Init |
-| v2 | Favicon | Deferred | Init |
-| v2 | Custom domain | Deferred | Init |
-| v2 | Dark mode toggle | Deferred | Init |
+| v2 | Projects section | Deferred | v1.0 init |
+| v2 | Certifications | Deferred | v1.0 init |
+| v2 | Favicon | Deferred | v1.0 init |
+| v2 | Custom domain | Deferred | v1.0 init |
+| v2 | Dark mode toggle | Deferred | v1.0 init |
+| v2 | Blog / writing section | Deferred | v1.0 init |
 
 ## Session Continuity
 
-Last session: 2026-05-09T11:30:00.000Z
-Stopped at: Phase 3 verified — UAT 6/6 pass
-Resume file: .planning/phases/03-polish-meta/03-UAT.md
+Last session: 2026-05-09T12:00:00.000Z
+Stopped at: v1.0 milestone archived; tag v1.0 created locally
+Resume file: .planning/milestones/v1.0-ROADMAP.md
