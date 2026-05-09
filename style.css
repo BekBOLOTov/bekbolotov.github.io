@@ -242,6 +242,16 @@ nav a.active {
   color: var(--color-text);
 }
 
+.experience-stack {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin: var(--space-1) 0 0 0;
+}
+
+.experience-stack span {
+  font-weight: 600;
+}
+
 /* 8. SKILLS ---------------------------------------------- */
 .skills-tier {
   margin-bottom: var(--space-6);
