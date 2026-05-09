@@ -47,7 +47,22 @@ Plans:
   3. Work history is displayed in reverse chronological order with company, title, dates, at least one quantified impact bullet, and tech stack per role
   4. Skills are grouped by honest proficiency tier — not a flat keyword list
   5. Achievements section shows competitive programming honors (IOI, ACM ICPC NEERC) and DS&A profiles; contact section includes email, GitHub, and LinkedIn links
-**Plans**: TBD
+**Plans**: 5 plans
+Plans:
+**Wave 1**
+- [ ] 02-01-PLAN.md — CSS typography/layout/nav foundations + HTML title/meta/nav links
+
+**Wave 2** *(blocked on Wave 1 completion)*
+- [ ] 02-02-PLAN.md — Hero + Contact sections: HTML content + CSS (above-the-fold credibility)
+
+**Wave 3** *(blocked on Wave 2 completion)*
+- [ ] 02-03-PLAN.md — Experience section: 5 roles with impact bullets, CSS layout
+
+**Wave 4** *(blocked on Wave 3 completion)*
+- [ ] 02-04-PLAN.md — Skills + Achievements sections: proficiency tiers, honors, DS&A profile links
+
+**Wave 5** *(blocked on Wave 4 completion)*
+- [ ] 02-05-PLAN.md — CSS utilities/overflow guard (sections 11-12) + script.js IntersectionObserver active nav
 **UI hint**: yes
 
 ### Phase 3: Polish & Meta
@@ -69,5 +84,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deploy | 2/2 | Complete | 2026-05-09 |
-| 2. Content & Structure | 0/TBD | Not started | - |
+| 2. Content & Structure | 0/5 | Not started | - |
 | 3. Polish & Meta | 0/TBD | Not started | - |
