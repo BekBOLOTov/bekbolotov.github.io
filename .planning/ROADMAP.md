@@ -13,7 +13,7 @@ Three phases take the project from an empty repo to a live, polished CV landing 
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation & Deploy** - Repo scaffolded, site live on GitHub Pages with HTTPS verified (2026-05-09)
-- [ ] **Phase 2: Content & Structure** - All CV sections authored and rendered with correct visual design
+- [x] **Phase 2: Content & Structure** - All CV sections authored and rendered with correct visual design (2026-05-09)
 - [ ] **Phase 3: Polish & Meta** - Mobile layout, print stylesheet, and SEO meta complete
 
 ## Phase Details
@@ -50,19 +50,19 @@ Plans:
 **Plans**: 5 plans
 Plans:
 **Wave 1**
-- [ ] 02-01-PLAN.md — CSS typography/layout/nav foundations + HTML title/meta/nav links
+- [x] 02-01-PLAN.md — CSS typography/layout/nav foundations + HTML title/meta/nav links
 
 **Wave 2** *(blocked on Wave 1 completion)*
-- [ ] 02-02-PLAN.md — Hero + Contact sections: HTML content + CSS (above-the-fold credibility)
+- [x] 02-02-PLAN.md — Hero + Contact sections: HTML content + CSS (above-the-fold credibility)
 
 **Wave 3** *(blocked on Wave 2 completion)*
-- [ ] 02-03-PLAN.md — Experience section: 5 roles with impact bullets, CSS layout
+- [x] 02-03-PLAN.md — Experience section: 5 roles with impact bullets, CSS layout
 
 **Wave 4** *(blocked on Wave 3 completion)*
-- [ ] 02-04-PLAN.md — Skills + Achievements sections: proficiency tiers, honors, DS&A profile links
+- [x] 02-04-PLAN.md — Skills + Achievements sections: proficiency tiers, honors, DS&A profile links
 
 **Wave 5** *(blocked on Wave 4 completion)*
-- [ ] 02-05-PLAN.md — CSS utilities/overflow guard (sections 11-12) + script.js IntersectionObserver active nav
+- [x] 02-05-PLAN.md — CSS utilities/overflow guard (sections 11-12) + script.js IntersectionObserver active nav
 **UI hint**: yes
 
 ### Phase 3: Polish & Meta
@@ -84,5 +84,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deploy | 2/2 | Complete | 2026-05-09 |
-| 2. Content & Structure | 0/5 | Not started | - |
+| 2. Content & Structure | 5/5 | Complete | 2026-05-09 |
 | 3. Polish & Meta | 0/TBD | Not started | - |
