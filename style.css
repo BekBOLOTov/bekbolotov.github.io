@@ -243,10 +243,76 @@ nav a.active {
 }
 
 /* 8. SKILLS ---------------------------------------------- */
-/* Phase 2 fills this section */
+.skills-tier {
+  margin-bottom: var(--space-6);
+}
+
+.skills-tier:last-child {
+  margin-bottom: 0;
+}
+
+.skills-tier-label {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-2);
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.skill-tag {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  background-color: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: var(--space-1) var(--space-2);
+  line-height: 1.4;
+}
 
 /* 9. ACHIEVEMENTS ---------------------------------------- */
-/* Phase 2 fills this section */
+.achievements-group {
+  margin-bottom: var(--space-8);
+}
+
+.achievements-group:last-child {
+  margin-bottom: 0;
+}
+
+.achievements-group-heading {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+}
+
+.achievements-group ul {
+  margin: 0;
+  padding-left: var(--space-6);
+}
+
+.achievements-group li {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  margin-bottom: var(--space-2);
+  color: var(--color-text);
+}
+
+.achievements-group a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.achievements-group a:hover,
+.achievements-group a:focus {
+  text-decoration: none;
+}
 
 /* 10. CONTACT / FOOTER ----------------------------------- */
 .contact-list {
