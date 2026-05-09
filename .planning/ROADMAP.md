@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation & Deploy** - Repo scaffolded, site live on GitHub Pages with HTTPS verified (2026-05-09)
 - [x] **Phase 2: Content & Structure** - All CV sections authored and rendered with correct visual design (2026-05-09)
-- [ ] **Phase 3: Polish & Meta** - Mobile layout, print stylesheet, and SEO meta complete
+- [x] **Phase 3: Polish & Meta** - Mobile layout, print stylesheet, and SEO meta complete (2026-05-09)
 
 ## Phase Details
 
@@ -77,13 +77,13 @@ Plans:
 **Plans**: 3 plans
 Plans:
 **Wave 1**
-- [ ] 03-01-PLAN.md — CV content refresh: experience rewrite (D-04), inline Stack lines (D-05), skills 2-tier collapse (D-06/D-07), .experience-stack CSS rule
+- [x] 03-01-PLAN.md — CV content refresh: experience rewrite (D-04), inline Stack lines (D-05), skills 2-tier collapse (D-06/D-07), .experience-stack CSS rule
 
 **Wave 2** *(blocked on Wave 1 completion)*
-- [ ] 03-02-PLAN.md — Mobile CSS + print CSS: expand @media (max-width: 600px) for horizontal-scroll nav + 44px tap targets, new @media print block, prefers-reduced-motion guard
+- [x] 03-02-PLAN.md — Mobile CSS + print CSS: expand @media (max-width: 600px) for horizontal-scroll nav + 44px tap targets, new @media print block, prefers-reduced-motion guard
 
 **Wave 3** *(blocked on Wave 2 completion)*
-- [ ] 03-03-PLAN.md — Head meta + OG card: update meta description, add canonical/theme-color/OG block/JSON-LD, generate and commit assets/og-card.png (has human checkpoint)
+- [x] 03-03-PLAN.md — Head meta + OG card: update meta description, add canonical/theme-color/OG block/JSON-LD, generate and commit assets/og-card.png (has human checkpoint)
 **UI hint**: yes
 
 ## Progress
@@ -95,4 +95,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deploy | 2/2 | Complete | 2026-05-09 |
 | 2. Content & Structure | 5/5 | Complete | 2026-05-09 |
-| 3. Polish & Meta | 0/3 | Not started | - |
+| 3. Polish & Meta | 3/3 | Complete | 2026-05-09 |
