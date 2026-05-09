@@ -195,7 +195,52 @@ nav a.active {
 }
 
 /* 7. EXPERIENCE ------------------------------------------ */
-/* Phase 2 fills this section */
+.experience-entry {
+  margin-bottom: var(--space-8);
+}
+
+.experience-entry:last-child {
+  margin-bottom: 0;
+}
+
+.experience-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.experience-company {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.experience-role {
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.experience-dates {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.experience-entry ul {
+  margin: 0;
+  padding-left: var(--space-6);
+}
+
+.experience-entry li {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  margin-bottom: var(--space-2);
+  color: var(--color-text);
+}
 
 /* 8. SKILLS ---------------------------------------------- */
 /* Phase 2 fills this section */
