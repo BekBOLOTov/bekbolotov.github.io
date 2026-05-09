@@ -65,16 +65,16 @@
 
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
-| HERO-01 | — | Pending |
-| HERO-02 | — | Pending |
-| HERO-03 | — | Pending |
-| EXP-01 | — | Pending |
-| EXP-02 | — | Pending |
-| EXP-03 | — | Pending |
-| SKILL-01 | — | Pending |
-| EDU-01 | — | Pending |
-| CONTACT-01 | — | Pending |
-| DEPLOY-01 | — | Pending |
-| POLISH-01 | — | Pending |
-| POLISH-02 | — | Pending |
-| POLISH-03 | — | Pending |
+| HERO-01 | Phase 2 | Pending |
+| HERO-02 | Phase 2 | Pending |
+| HERO-03 | Phase 2 | Pending |
+| EXP-01 | Phase 2 | Pending |
+| EXP-02 | Phase 2 | Pending |
+| EXP-03 | Phase 2 | Pending |
+| SKILL-01 | Phase 2 | Pending |
+| EDU-01 | Phase 2 | Pending |
+| CONTACT-01 | Phase 2 | Pending |
+| DEPLOY-01 | Phase 1 | Pending |
+| POLISH-01 | Phase 3 | Pending |
+| POLISH-02 | Phase 3 | Pending |
+| POLISH-03 | Phase 3 | Pending |
