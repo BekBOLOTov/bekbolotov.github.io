@@ -155,7 +155,44 @@ nav a.active {
 }
 
 /* 6. HERO ------------------------------------------------ */
-/* Phase 2 fills this section */
+#hero {
+  padding-block: var(--space-16);
+  border-top: none;
+}
+
+.hero-title {
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
+  font-weight: 400;
+  margin: 0 0 var(--space-4) 0;
+}
+
+.hero-summary {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  max-width: 600px;
+  margin: 0 0 var(--space-6) 0;
+  color: var(--color-text);
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  align-items: center;
+}
+
+.hero-links a {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.hero-links a:hover,
+.hero-links a:focus {
+  text-decoration: underline;
+}
 
 /* 7. EXPERIENCE ------------------------------------------ */
 /* Phase 2 fills this section */
@@ -167,7 +204,49 @@ nav a.active {
 /* Phase 2 fills this section */
 
 /* 10. CONTACT / FOOTER ----------------------------------- */
-/* Phase 2 fills this section */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-12) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  font-size: var(--font-size-base);
+}
+
+.contact-label {
+  font-weight: 600;
+  color: var(--color-text);
+  min-width: 80px;
+}
+
+.contact-list a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.contact-list a:hover,
+.contact-list a:focus {
+  text-decoration: none;
+}
+
+footer {
+  border-top: 1px solid var(--color-border);
+  padding-block: var(--space-8);
+  text-align: center;
+}
+
+footer p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin: 0;
+}
 
 /* 11. UTILITIES ------------------------------------------ */
 /* Phase 2 fills this section */
