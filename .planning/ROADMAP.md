@@ -27,7 +27,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. Visiting `<username>.github.io` in a browser loads the page over HTTPS without errors
   2. The repository is named correctly (`<username>.github.io`) and Pages is configured to serve from the main branch root
   3. `index.html` and `style.css` exist in the repo root and are committed to main
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+**Wave 1**
+- [ ] 01-01-PLAN.md — Create HTML/CSS scaffold (index.html, style.css, assets/.gitkeep)
+
+**Wave 2** *(blocked on Wave 1 completion)*
+- [ ] 01-02-PLAN.md — Create remote repo, push, enable GitHub Pages, verify HTTPS
 **UI hint**: yes
 
 ### Phase 2: Content & Structure
@@ -62,6 +68,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Deploy | 0/TBD | Not started | - |
+| 1. Foundation & Deploy | 0/2 | Not started | - |
 | 2. Content & Structure | 0/TBD | Not started | - |
 | 3. Polish & Meta | 0/TBD | Not started | - |
