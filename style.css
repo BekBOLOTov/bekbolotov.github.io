@@ -382,12 +382,13 @@ footer p {
   border: 0;
 }
 
-html {
-  scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 /* 12. MEDIA QUERIES -------------------------------------- */
-/* Phase 2: overflow guard only. Full responsive layout in Phase 3. */
 @media (max-width: 600px) {
   .container {
     padding-inline: var(--space-4);
@@ -399,7 +400,71 @@ html {
   }
 
   nav {
-    gap: var(--space-4);
-    flex-wrap: wrap;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  nav a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    padding-inline: var(--space-2);
+  }
+}
+
+@media print {
+  /* Hide screen-only chrome */
+  header,
+  footer {
+    display: none;
+  }
+
+  /* Strip section dividers (visual only, not structural) */
+  section {
+    border-top: none;
+  }
+
+  /* Force black text on white background */
+  body {
+    color: #000;
+    background: #fff;
+  }
+
+  /* Links: readable but not blue — underline makes them still recognizable as links */
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  /* Append full URL after every link */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #444;
+  }
+
+  /* Suppress URL expansion for non-useful link types */
+  a[href^="mailto:"]:after,
+  a[href^="#"]:after {
+    content: none;
+  }
+
+  /* Page-break control — both legacy and current property for cross-browser */
+  .experience-entry,
+  .achievements-group,
+  .skills-tier {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Standard page margins */
+  @page {
+    margin: 1in;
   }
 }
